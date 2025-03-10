@@ -28,7 +28,7 @@ import React, { useState } from 'react';
 
 function App() {
   // State lưu địa chỉ IP của điện thoại
-  const [ipAddress, setIpAddress] = useState('hhttp://10.147.18.207:8080/');
+  const [ipAddress, setIpAddress] = useState('https://10.147.18.207:8080/');
 
   // Tạo URL để lấy video
   const videoUrl = ipAddress ? `${ipAddress}/video` : '';
